@@ -1,4 +1,4 @@
-bzr==2.7.0
+bzr==2.7.0.dev1
 BzrTools==2.6.0
 chardet==2.0.1
 click==6.7
