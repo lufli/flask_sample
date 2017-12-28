@@ -9,9 +9,6 @@ class AppTestCase(unittest.TestCase):
         self.app.config['TESTING'] = True
         self.client = self.app.test_client()
         
-    def tearDown(self):
-        return
-    
     def test_upload(self):
         f = open('./Flask.jpg', 'r')
         data = StringIO(f.read())
